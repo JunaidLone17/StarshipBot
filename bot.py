@@ -2,14 +2,14 @@
 import tweepy
 from apiclient.discovery import build
 
-DEVELOPER_KEY = 'AIzaSyDEvwsT8LX-iRLbnBnZ84sEVlpwbMDyOO8'
+DEVELOPER_KEY = ''
 youtube = build('youtube', 'v3', developerKey=DEVELOPER_KEY)
 
 FILE_NAME = 'last_seen.txt'
-key = '1442332205301207051-FoO7ddnmyGMcd6dwgmawGU3jPupHdG'
-secret = 'NpLlecuMrGLX330MJUYNxcVkFcsni6Upev9GMabhw8nGO'
-consumer_key = 'SNLipBVF78vnhclWGFAMqBASt'
-consumer_secret = 'WK9Q22AKVXmbgc9qj1crSNv6BUWX9JwXBu6fJ6V8XuRBSP0nbg'
+key = ''
+secret = ''
+consumer_key = ''
+consumer_secret = ''
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(key, secret)
 api = tweepy.API(auth)
